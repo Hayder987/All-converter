@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2> Converter All</h2>
+
+  <div class="main">
+    
+    <div class="card">
+       
+      <form action="" id="form">
+
+        <label for="select" class="label-1">Select Your Conversion:</label> <br>
+        <select name="" id="select-data">
+           
+          <option class="option" value="aspect" id="kilogram" selected>Aspect Ratio 16:9</option>
+          <option class="option" value="aspect2" id="aspect2">Aspect Ratio 9:16</option>
+          <option class="option" value="farenhite" id="farenhite" >Ferenhite To Celsius</option>
+          <option class="option" value="celsius" id="celsius">Celsius to farenhite</option>
+          <option class="option" value="liter" id="celsius">Liter to Ounch Oz</option>
+          <option class="option" value="kilometer" id="kilometer">Kilo-meter To Miles</option>
+          <option class="option" value="area" id="area">Square feet to Square Meter</option>
+          <option class="option" value="gallon" id="gallon">gallon To Liter</option>
+          <option class="option" value="kilogram" id="kilogram">Pounds to Kilogram</option>
+          
+          
+        </select><br><br>
+    
+        <input type="text" name="text" id="input1"   autocomplete="off" >
+         <span id="span-1" class=" f" > Width</span><br><br>
+    
+        <input type="text" name="text" id="input2"   autocomplete="off" readonly> 
+        <span id="span-2"class=" f">Height </span> <br><br>
+
+        <p class="demo">Note : Please selcet conversion and Enter Numaric Value</p>
+    
+        <button onclick="resetall()" type="reset" class="btn btn-reset">Reset</button>
+        <button  type="submit" class="btn btn-submit">Convert</button>
+    
+      </form> 
+
+
+    </div>
+
+
+  </div>
+
+    
+    
+  <script src="index.js"></script>
+
+</body>
+</html>

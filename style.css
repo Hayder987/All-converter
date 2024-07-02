@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: black;
+    color:white;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  
+}
+.card{
+    width:450px;
+    background-color: rgb(14, 131, 167);
+    height:50vh;
+    padding:2rem;
+    box-shadow: 0.3rem 0.4rem 0.6rem 0.2rem rgb(8, 8, 193);
+   
+}
+.card:hover{
+    box-shadow: 0.3rem 0.4rem 0.6rem 0.2rem rgb(249, 41, 41);  
+}
+
+h2{
+    margin-top: 3rem; 
+    text-align: center; 
+    margin-left: -2.5rem; 
+}
+#form, #form-2{
+padding:1rem;
+}
+#input1, #input2{
+    border:none;
+    padding:0.5rem;
+    font-size: 1.3rem;
+    background-color: rgb(3, 0, 12);
+    color:aliceblue;
+}
+.f{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.btn{
+    padding:0.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color:rgb(228, 21, 21);
+    color:white;
+    margin-top:3rem;
+}
+.btn-submit{
+    background-color: rgb(5, 100, 21);
+    margin-left: 2rem;
+}
+.label-1{
+    font-size:1.4rem;
+    padding:0.5rem;
+}
+#select-data{
+    padding:0.3rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    background-color: black;
+    color:aliceblue;
+    border: none;
+   
+}
+#select-data:hover{
+    color:red;
+}
+
+.btn-reset{
+    margin-left:3rem;
+}
